@@ -1,6 +1,6 @@
-% Project Spyn - simple maze runner with color reactions
+% Project Spyn
 % -------------------------------------------------------
-% Assumptions:
+
 %  - Left wheel motor = port 'D'
 %  - Right wheel motor = port 'A'
 %  - Color sensor = port 1 (facing down)
@@ -146,3 +146,4 @@ end
 brick.StopAllMotors('Brake');
 brick.beep();
 fprintf('Script finished.\n');
+
